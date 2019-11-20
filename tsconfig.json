@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "lib": ["dom", "esnext"],
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "pretty": true,
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "rootDirs": ["src", "definitions"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"]
+}
