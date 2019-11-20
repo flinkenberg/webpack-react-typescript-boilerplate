@@ -3,10 +3,11 @@
 ### Build Tools:
 
 - webpack
+- babel
 - typescript
 
 ### Libs
 
 - react
 - react-router
-- sass
+- sass modules

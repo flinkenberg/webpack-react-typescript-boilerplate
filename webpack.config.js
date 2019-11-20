@@ -26,10 +26,6 @@ module.exports = (_env, argv) => {
           },
     devServer: {
       port: 8000,
-      historyApiFallback: true,
-      after: (app, server, compiler) => {
-        console.log(app, server, compiler);
-      },
     },
     module: {
       rules: [
