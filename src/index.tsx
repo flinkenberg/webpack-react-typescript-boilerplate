@@ -1,4 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
+import App from "./App";
 
-export default render(<div>test</div>, document.getElementById("root"));
+export default render(<App />, document.getElementById("root"));
